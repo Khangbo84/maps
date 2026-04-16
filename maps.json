@@ -2,6 +2,7 @@
   {
     "title": "Parkour 25 levels",
     "desc": "Parkour 25 levels is my first parkour map.",
+    "category": "map",
     "type": "parkours",
     "image": "parkour_25_levels.jpg",
 
@@ -17,6 +18,7 @@
   {
     "title": "Dimensions Spiral",
     "desc": "Dimensions spiral is a second parkour",
+    "category": "map",
     "type": "parkours",
     "image": "dimensions_spiral.jpg",
 
