@@ -106,6 +106,7 @@ body {
   background: #111827;
   border-radius: 16px;
   overflow-y: auto; /* 🔥 SCROLL NỘI BỘ */
+  -webkit-overflow-scrolling: touch;
 }
 
 .popup-close {
