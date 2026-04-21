@@ -100,10 +100,12 @@ body {
 .popup-box {
   position: relative;
   max-width: 800px;
-  margin: 40px auto;
+  width: 90%;
+  max-height: 90vh; /* 🔥 GIỚI HẠN */
+  margin: 5vh auto;
   background: #111827;
   border-radius: 16px;
-  overflow: auto;
+  overflow-y: auto; /* 🔥 SCROLL NỘI BỘ */
 }
 
 .popup-close {
@@ -167,4 +169,8 @@ body {
   transform: translate(-50%,-50%);
   max-width: 95%;
   max-height: 95%;
+}
+
+body.no-scroll {
+  overflow: hidden;
 }
