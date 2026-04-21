@@ -70,6 +70,8 @@ document.querySelectorAll(".category-filter button").forEach(btn => {
 
 /* ===== POPUP ===== */
 function openPopup(data) {
+  document.body.classList.add("no-scroll"); // 🔥 khóa nền
+
   document.getElementById("popup-cover").src = data.image;
   document.getElementById("popup-title").textContent = data.title;
   document.getElementById("popup-desc").textContent = data.desc || "";
@@ -83,9 +85,7 @@ function openPopup(data) {
     data.gallery.forEach(src => {
       const img = document.createElement("img");
       img.src = src;
-
       img.onclick = () => openImage(src);
-
       gallery.appendChild(img);
     });
   }
@@ -95,6 +95,7 @@ function openPopup(data) {
 
 function closePopup(){
   popup.classList.add("hidden");
+  document.body.classList.remove("no-scroll"); // 🔥 mở lại scroll
 }
 
 popup.querySelector(".popup-close").onclick = closePopup;
