@@ -111,8 +111,33 @@ body {
 
 .popup-close {
   position: absolute;
-  right: 10px;
-  top: 10px;
+  top: 12px;
+  right: 12px;
+
+  width: 36px;
+  height: 36px;
+
+  border-radius: 50%;
+  border: none;
+
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(6px);
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.popup-close:hover {
+  background: rgba(255,255,255,0.25);
+  transform: scale(1.1);
 }
 
 .popup-cover {
