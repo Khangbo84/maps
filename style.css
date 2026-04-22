@@ -200,3 +200,7 @@ body {
 body.no-scroll {
   overflow: hidden;
 }
+
+#popup-desc {
+  white-space: pre-line;
+}
