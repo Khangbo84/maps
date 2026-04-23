@@ -16,7 +16,7 @@
     ],
 
     "version": "Minecraft Bedrock 1.21.30",
-    "download": ""
+    "download": "parkour-25-levels-2-3.mctemplate"
   },
   {
     "title": "Dimensions Spiral",
@@ -35,8 +35,8 @@
       "ds_img7.png"
     ],
 
-    "version": "Minecraft Bedrock 1.21.80",
-    "download": ""
+    "version": "Minecraft Bedrock 1.21.80+",
+    "download": "dimension-spiral-v1-1.mctemplate"
   },
   {
     "title": "1st Anniversary Parkour",
@@ -54,8 +54,8 @@
       "1st_6.png"
     ],
 
-    "version": "Minecraft Bedrock 1.21.70",
-    "download": ""
+    "version": "Minecraft Bedrock 1.21.120+",
+    "download": "1st-anniversary-parkour.mctemplate"
   },
   {
     "title": "The Summer Island",
@@ -69,8 +69,8 @@
       "tsi_2.png"
     ],
 
-    "version": "Minecraft Bedrock 1.21.70",
-    "download": ""
+    "version": "Minecraft Bedrock 1.21.70+",
+    "download": "the-summer-island.mctemplate"
   },
   {
     "title": "The Autumn Island",
@@ -87,8 +87,8 @@
       "autumn_6.png"
     ],
 
-    "version": "Minecraft Bedrock 1.21.120",
-    "download": ""
+    "version": "Minecraft Bedrock 1.21.120+",
+    "download": "the-autumn-island.mctemplate"
   },
   {
     "title": "Parkour 25 levels 2",
@@ -106,8 +106,8 @@
       "p25l-2_6.png"
     ],
 
-    "version": "Minecraft Bedrock 1.21.120",
-    "download": ""
+    "version": "Minecraft Bedrock 1.21.120+",
+    "download": "parkour-25-levels-2.mctemplate"
   },
   {
     "title": "Supereasymaps hub 2 (v1.1)",
@@ -124,7 +124,7 @@
       "sem_5.png"
     ],
 
-    "version": "Minecraft Bedrock 1.21.70",
-    "download": ""
+    "version": "Minecraft Bedrock 1.21.70+",
+    "download": "supereasymaps-hub-2-v1-1.mctemplate"
   }
 ]
